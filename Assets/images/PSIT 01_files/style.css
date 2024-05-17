@@ -1,0 +1,63 @@
+.root {
+    --bg1: #2D2A2B;
+    --bg2: rgb(44, 42, 42);
+    --body: rgb(95, 86, 86);
+    --brand: #F2B03B;
+    --white: rgb(156, 154, 154);
+    --p: rgb(161, 150, 150);
+}
+
+
+
+.banner {
+    height: 100vh;
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 0.315)), url('https://th.bing.com/th/id/OIP.JLdnZPgwZkiwcaIF2mHrRAHaEK?w=308&h=180&c=7&r=0&o=5&pid=1.7')
+}
+
+.navbar {
+    background: linear-gradient(to bottom, hsla(0, 2%, 17%, 0.829), rgba(44, 42, 42, 0.884));
+}
+
+.navbar .nav-link {
+
+    color: #FFFFFF;
+}
+
+.navbar #navbarNav .nav-link.active {
+    color: var(--brand) !important;
+}
+
+.navbar .nav-link:hover {
+    color: var(--brand) !important;
+}
+
+.navbar-brand img {
+    width: 50%;
+}
+
+.btn {
+    padding: 15 px 30px;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 0;
+}
+
+.btn-brand {
+    background-color: var(--brand);
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+
+a {
+    text-decoration: none;
+}
+
+/*body {
+    background-color: red;
+}
+
+/* background: linear-gradient( to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 0.315)),  */
